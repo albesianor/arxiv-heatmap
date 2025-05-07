@@ -1,0 +1,13 @@
+name: arxiv-heatmaps
+channels:
+  - conda-forge
+dependencies:
+  - jupyter 
+  - matplotlib >= 3.8
+  - pandas >= 2.0
+  - pip >= 24.0
+  - pyarrow 
+  - python = 3.13
+  - plotly
+  - pip:
+    - engineering-notation==0.10.0

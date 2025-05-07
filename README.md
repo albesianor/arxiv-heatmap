@@ -28,3 +28,29 @@ To be figured out.  We definitely need some smoothing, but I don't know yet how 
 
 ### Visualization
 Also to be figured out.  We might use correlation-like heatmaps from `seaborn`, or maybe a network plot.  It would be nice to have  an interactive graph that evolves in time.
+
+## Getting started
+Create the Conda environment
+```sh
+conda env create --file=environment.yml
+```
+
+Activate the new environment
+```sh
+conda activate arxiv-heatmaps
+```
+
+Install the kernel in Jupyter
+```sh
+python -m ipykernel install --user --name arxiv-heatmaps
+```
+
+### Requirements
+- Python 3.13
+- `jupyter`
+- `matplotlib` >= 3.8
+- `pandas` >= 2.0
+- `pip` >= 24.0
+- `pyarrow` 
+- `plotly`
+- `engineering-notation==0.10.0`
