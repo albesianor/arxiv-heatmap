@@ -40,6 +40,11 @@ Activate the new environment
 conda activate arxiv-heatmaps
 ```
 
+Install the additional dependency for logarithmic heatmaps using `plotly`
+```sh
+pip3 install git+https://github.com/SengerM/plotly_utils
+```
+
 Install the kernel in Jupyter
 ```sh
 python -m ipykernel install --user --name arxiv-heatmaps
