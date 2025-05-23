@@ -2,32 +2,48 @@
 
 The _[arXiv](https://arxiv.org)_ is the major open-access repository of electronic preprints for Physics, Mathematics and Computer Science, among other fields.  Preprints are classified into several categories, and have been posted since the late 80s.
 
-The goal of this project is to study the interaction between categories, measured by cross-listings, and its evolution in time.  In particular, we would like to see if it is possible to predict increased activity of certain categories based on increase in activity in related categories.
+The goal of this project is to create a forecasting algorithm of postings on the arXiv per category, both short-term (to optimize visibility) and long-term (to optimize audience size).
 
-As a follow-up, we would like to implement a "live forecast" for postings in the arXiv.
 
-## Implementation
+## Stakeholders and KPIs
+### Short-term predictions (optimizing visibility)
+**Stakeholders**: Researchers trying to optimize their preprint visibility.
+
+**Idea**: Assuming that the probability a preprint being opened is inversely proportional to the number of papers listed in the same area on the same day, then one would aim to post papers on days when fewer papers are posted.
+
+**KPIs**: The forecasting algorithm should significantly decrease the expected number of other papers posted on the same day as the stakeholder's paper, compared to average number of paper posted per day.
+
+
+### Long-term predictions (optimizing audience size)
+**Stakeholders**: Researchers trying to predict which field is going to become popular and in-demand, to increase their audience.
+
+**Idea**: Given a starting category $C_0$, a starting time $t_0$, and a time interval $\Delta t$, the algorithm should recommend whether to stay in the field $c_0$ or try to move towards an adjacent field $C_1$ (adjacency could be measured by number of cross-listings), for the purpose of maximizing the audience of a paper posted at time $t_0 + \Delta t$.  A proxy for the audience of a category $C$ could be the number of monthly (?) postings in $C$.
+
+**KPIs**: The recommended category should reliably have more monthly postings than the average of monthly postings of all the adjacent fields (possibly weighted by "adjacency", i.e. cross-listings).
+
+
+## Implementation and checkpoints
 
 ### Datasets
 The complete arXiv metadata is freely available on [Kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv/data).  The dataset seems to cover the entirety of arXiv's history, and is maintained directly by the arXiv.
 
-### Cleaning
-- remove all unnecessary metadata, keeping only `id`, `version`, and `categories`
-- extract the first upload date from `version`, put it into a new column `date`, remove the `version` column
-- `categories` are listed in a single string, separated by white spaces: turn it into a list
-- arXiv categories changed in 2007: find the legacy categories and replace them with the new ones
+### Cleaning (`cleaning.ipynb`)
+- [x] remove all unnecessary metadata, keeping only `id`, `version`, and `categories`
+- [x] extract the first upload date from `version`, put it into a new column `date`, remove the `version` column
+- [x] `categories` are listed in a single string, separated by white spaces: turn it into a list
+- [x] arXiv categories changed in 2007: find the legacy categories and replace them with the new ones
 
-### Pre-process data
-- list all possible combinations of categories
-- group the listings by date
-- for every `date`, count the cross-listings and the totals
-- save the count into two new dataframes (`arxiv_snapshots` and `arxiv_totals`), indexed by `date`
+### Pre-process data (`crunching.ipynb`)
+- [x] list all possible combinations of categories
+- [x] group the listings by date
+- [x] for every `date`, count the cross-listings and the totals
+- [x] save the count into two new dataframes (`arxiv_snapshots` and `arxiv_totals`), indexed by `date`
 
 ### Data analysis
-To be figured out.  We definitely need some smoothing, but I don't know yet how to do the forecasting part.
+To be figured out.
 
 ### Visualization
-Also to be figured out.  We might use correlation-like heatmaps from `seaborn`, or maybe a network plot.  It would be nice to have  an interactive graph that evolves in time.
+Also to be figured out.
 
 ## Getting started
 Create the Conda environment
