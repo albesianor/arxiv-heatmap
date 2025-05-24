@@ -22,7 +22,7 @@ The goal of this project is to create a forecasting algorithm of postings on the
 **KPIs**: The recommended category should reliably have more monthly postings than the average of monthly postings of all the adjacent fields (possibly weighted by "adjacency", i.e. cross-listings).
 
 
-## Implementation and checkpoints
+## Implementation
 
 ### Datasets
 The complete arXiv metadata is freely available on [Kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv/data).  The dataset seems to cover the entirety of arXiv's history, and is maintained directly by the arXiv.
@@ -45,7 +45,7 @@ As `arxiv-metadata-id-date-categories.parquet` but with cleaned categories.  Thi
 ##### `data/arxiv-totals.parquet`
 The daily totals per category (columns: categories; rows: dates).
 
-#### `data/arxiv-snapshots.parquet`
+#### `data/arxiv-snapshots.parquet` (name should be changed)
 The daily totals per cross-listing (columns: couples of categories; rows: dates).  A paper listed in three categories A, B, C would count as an entry in each of (A,B), (B,C), and (A,C).  The diagonal entries of the form (X,X) count the papers that are listed in category X only and not cross-listed in any other category.
 
 **Note**: this means that the sum of all cross listings (A,-) isn't necessarily equal to the totals for A.
@@ -82,7 +82,7 @@ Activate the new environment
 conda activate arxiv-heatmaps
 ```
 
-Install the additional dependency for logarithmic heatmaps using `plotly`
+Install the additional dependency for `plotly` logarithmic heatmaps
 ```sh
 pip3 install git+https://github.com/SengerM/plotly_utils
 ```
@@ -101,3 +101,12 @@ python -m ipykernel install --user --name arxiv-heatmaps
 - `pyarrow` 
 - `plotly`
 - `engineering-notation==0.10.0`
+
+## Project guidelines
+- Don't work on the `main` branch directly.  Create separate branches and pull requests to `main`.
+- Keep all the data in the `data` folder.
+- Keep all Jupyter notebooks in the `notes` folder.
+- Be descriptive in your notebooks: everyone should be able to understand the code and the ideas by just looking at the notebook.
+- Use reasonable and descriptive names for files.
+- Write descriptive commit messages.  Follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and try to be consistent.
+- Keep the team up-to-date with your activity on the Slack channel.
