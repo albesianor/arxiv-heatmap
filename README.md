@@ -63,10 +63,13 @@ The daily totals per cross-listing (columns: couples of categories; rows: dates)
 - [x] save the count into two new dataframes (`arxiv_snapshots` and `arxiv_totals`), indexed by `date`
 
 ### Data analysis
-To be figured out.
+Our idea at the moment is as follows.
+- Short-term behavior is probably not influenced much by interaction between categories, but rather by human preferences.  Hence, a reasonable approach would be trying to predict the short-term behavior of category X solely looking at the time series of X.  If that is the case, the modeling should be fairly straightforward and easily implementable.
+- Long-term behavior is more likely affected by interactions between categories, and the analysis is probably more difficult.  We still have to figure out what to do here.
+
 
 ### Visualization
-Also to be figured out.
+To be figured out.
 
 ## Getting started
 Create the Conda environment
