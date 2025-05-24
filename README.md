@@ -27,13 +27,36 @@ The goal of this project is to create a forecasting algorithm of postings on the
 ### Datasets
 The complete arXiv metadata is freely available on [Kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv/data).  The dataset seems to cover the entirety of arXiv's history, and is maintained directly by the arXiv.
 
-### Cleaning (`cleaning.ipynb`)
+### Files description
+#### Data cleaning (`notes/cleaning.ipynb`)
+##### `data/arxiv-metadata-id-versions-categories.parquet`
+The arXiv metadata stripped of all columns except for `id` (`string` - the arXiv ID), `versions` (a dictionary containing data about the published versions), and `categories` (`list(string)` - the list of categories the entry is posted in).  No date extraction or cleaning of missing/legacy categories yet.
+
+##### `data/arxiv-categories.json`
+List of all current categories.
+
+##### `data/arxiv-metadata-id-date-categories.parquet`
+Same as `data/arxiv-metadata-id-versions-categories.parquet`, but with `date` (`datetime` - the publishing date of the first version v1) in place of `versions`.
+
+##### `data/arxiv-metadata-cleaned.parquet`
+As `arxiv-metadata-id-date-categories.parquet` but with cleaned categories.  This is the starting point for pre-processing.
+
+#### Pre-processing (`notes/crunching.ipynb`)
+##### `data/arxiv-totals.parquet`
+The daily totals per category (columns: categories; rows: dates).
+
+#### `data/arxiv-snapshots.parquet`
+The daily totals per cross-listing (columns: couples of categories; rows: dates).  A paper listed in three categories A, B, C would count as an entry in each of (A,B), (B,C), and (A,C).  The diagonal entries of the form (X,X) count the papers that are listed in category X only and not cross-listed in any other category.
+
+**Note**: this means that the sum of all cross listings (A,-) isn't necessarily equal to the totals for A.
+
+### Cleaning (`notes/cleaning.ipynb`)
 - [x] remove all unnecessary metadata, keeping only `id`, `version`, and `categories`
 - [x] extract the first upload date from `version`, put it into a new column `date`, remove the `version` column
 - [x] `categories` are listed in a single string, separated by white spaces: turn it into a list
 - [x] arXiv categories changed in 2007: find the legacy categories and replace them with the new ones
 
-### Pre-process data (`crunching.ipynb`)
+### Pre-process data (`notes/crunching.ipynb`)
 - [x] list all possible combinations of categories
 - [x] group the listings by date
 - [x] for every `date`, count the cross-listings and the totals
