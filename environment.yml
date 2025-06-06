@@ -9,5 +9,6 @@ dependencies:
   - pyarrow 
   - python = 3.13
   - plotly
+  - scikit-learn
   - pip:
     - engineering-notation==0.10.0
