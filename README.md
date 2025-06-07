@@ -22,6 +22,31 @@ The goal of this project is to create a forecasting algorithm of postings on the
 **KPIs**: The recommended category should reliably have more monthly postings than the average of monthly postings of all the adjacent fields (possibly weighted by "adjacency", i.e. cross-listings).
 
 
+## Short-term prediction model
+### Goal
+
+For a stakeholder submitting a paper with tags $\mathcal{C}_1,\dots,\mathcal{C}_n$ and wants to submit within the next $h$ days, we will give the suggestion of the best day(s) within this time period to submit to optimize visibility.
+
+### Steps
+
+#### Step 1: Data Preparation
+We will need to fix the following parameters:
+- A fixed cateogry $\mathcal{C}$
+- A forecasting horizon $h=5$ buiseness days
+- Data split $3h$, capped at 03/17/2025 (our data stopping point is 04/10/2025)
+- Data starting point is 01/01/2001 (Monday)
+
+#### Step 2: Baseline Model
+There are several choices of time series models for us to form the baseline model:
+- [Holt-Winters (Triple Exponential Smoothing)](https://www.statsmodels.org/devel/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html)  
+    Use cross-validation or a validation to find the best combination of the hyperparameters `trend`, `damped_trend`, `seasonal`.  
+    - Additive version
+    - Multiplicative version
+
+- Seasonal Autoregressive Integrated Moving Average (SARIMA) or ARIMA
+- Some regression models: [Time-related feature engineering](https://scikit-learn.org/stable/auto_examples/applications/plot_cyclical_feature_engineering.html#time-related-feature-engineering)
+
+
 ## Implementation
 
 ### Datasets
