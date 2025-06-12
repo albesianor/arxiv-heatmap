@@ -10,5 +10,6 @@ dependencies:
   - python = 3.13
   - plotly
   - scikit-learn
+  - prophet
   - pip:
     - engineering-notation==0.10.0
