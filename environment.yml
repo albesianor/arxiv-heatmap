@@ -4,11 +4,13 @@ channels:
 dependencies:
   - jupyter 
   - matplotlib >= 3.8
+  - seaborn
   - pandas >= 2.0
   - pip >= 24.0
   - pyarrow 
   - python = 3.13
   - plotly
+  - statsmodels
   - scikit-learn
   - prophet
   - pip:
