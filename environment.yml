@@ -13,5 +13,6 @@ dependencies:
   - statsmodels
   - scikit-learn
   - prophet
+  - kagglehub
   - pip:
     - engineering-notation==0.10.0
