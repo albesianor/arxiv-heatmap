@@ -1,0 +1,5582 @@
+{
+  "astro-ph.CO": {
+    "Dummy": {
+      "value": 16.973333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "astro-ph.EP": {
+    "Dummy": {
+      "value": 10.66
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "astro-ph.GA": {
+    "Dummy": {
+      "value": 23.9
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "astro-ph.HE": {
+    "Dummy": {
+      "value": 20.406666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.3,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.3
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "astro-ph.IM": {
+    "Dummy": {
+      "value": 11.82
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "astro-ph.SR": {
+    "Dummy": {
+      "value": 16.993333333333332
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cond-mat.dis-nn": {
+    "Dummy": {
+      "value": 5.506666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cond-mat.mes-hall": {
+    "Dummy": {
+      "value": 22.446666666666665
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cond-mat.mtrl-sci": {
+    "Dummy": {
+      "value": 30.26
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cond-mat.other": {
+    "Dummy": {
+      "value": 2.34
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cond-mat.quant-gas": {
+    "Dummy": {
+      "value": 5.746666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cond-mat.soft": {
+    "Dummy": {
+      "value": 10.133333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cond-mat.stat-mech": {
+    "Dummy": {
+      "value": 14.546666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cond-mat.str-el": {
+    "Dummy": {
+      "value": 16.393333333333334
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cond-mat.supr-con": {
+    "Dummy": {
+      "value": 7.726666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.AI": {
+    "Dummy": {
+      "value": 134.08
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.AR": {
+    "Dummy": {
+      "value": 5.226666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.CC": {
+    "Dummy": {
+      "value": 3.7666666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.CE": {
+    "Dummy": {
+      "value": 6.1066666666666665
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.CG": {
+    "Dummy": {
+      "value": 2.02
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.CL": {
+    "Dummy": {
+      "value": 77.4
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.CR": {
+    "Dummy": {
+      "value": 25.52
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.CV": {
+    "Dummy": {
+      "value": 115.73333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.CY": {
+    "Dummy": {
+      "value": 16.186666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.DB": {
+    "Dummy": {
+      "value": 4.786666666666667
+    },
+    "EST_NCV": {
+      "trend": "add",
+      "seasonal": "add",
+      "smoothing_level": 0.3,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.3
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.DC": {
+    "Dummy": {
+      "value": 11.6
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.DL": {
+    "Dummy": {
+      "value": 2.16
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.DM": {
+    "Dummy": {
+      "value": 4.12
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.DS": {
+    "Dummy": {
+      "value": 8.426666666666666
+    },
+    "EST_NCV": {
+      "trend": "add",
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.ET": {
+    "Dummy": {
+      "value": 5.206666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.FL": {
+    "Dummy": {
+      "value": 1.7866666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.GL": {
+    "Dummy": {
+      "value": 0.006666666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.GR": {
+    "Dummy": {
+      "value": 5.493333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.GT": {
+    "Dummy": {
+      "value": 5.966666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.HC": {
+    "Dummy": {
+      "value": 21.44
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.IR": {
+    "Dummy": {
+      "value": 14.206666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.IT": {
+    "Dummy": {
+      "value": 13.6
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.5,
+      "smoothing_trend": 0.3,
+      "smoothing_seasonal": 0.5
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.LG": {
+    "Dummy": {
+      "value": 156.89333333333335
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.LO": {
+    "Dummy": {
+      "value": 5.02
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.MA": {
+    "Dummy": {
+      "value": 5.833333333333333
+    },
+    "EST_NCV": {
+      "trend": "add",
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.MM": {
+    "Dummy": {
+      "value": 5.6
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.5,
+      "smoothing_trend": 0.3,
+      "smoothing_seasonal": 0.5
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.MS": {
+    "Dummy": {
+      "value": 0.64
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.NA": {
+    "Dummy": {
+      "value": 17.673333333333332
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.NE": {
+    "Dummy": {
+      "value": 6.34
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.NI": {
+    "Dummy": {
+      "value": 9.213333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.OH": {
+    "Dummy": {
+      "value": 0.16666666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.OS": {
+    "Dummy": {
+      "value": 0.74
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.PF": {
+    "Dummy": {
+      "value": 2.026666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.3,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.3
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.PL": {
+    "Dummy": {
+      "value": 3.046666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.RO": {
+    "Dummy": {
+      "value": 33.406666666666666
+    },
+    "EST_NCV": {
+      "trend": "add",
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.SC": {
+    "Dummy": {
+      "value": 0.8733333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.SD": {
+    "Dummy": {
+      "value": 12.76
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.SE": {
+    "Dummy": {
+      "value": 14.666666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.SI": {
+    "Dummy": {
+      "value": 7.453333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "cs.SY": {
+    "Dummy": {
+      "value": 23.08
+    },
+    "EST_NCV": {
+      "trend": "add",
+      "seasonal": "mul",
+      "smoothing_level": 0.3,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.3
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        0,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "econ.EM": {
+    "Dummy": {
+      "value": 2.94
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "econ.GN": {
+    "Dummy": {
+      "value": 3.9133333333333336
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "econ.TH": {
+    "Dummy": {
+      "value": 2.2666666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "eess.AS": {
+    "Dummy": {
+      "value": 14.446666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "eess.IV": {
+    "Dummy": {
+      "value": 17.573333333333334
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "eess.SP": {
+    "Dummy": {
+      "value": 21.986666666666668
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "eess.SY": {
+    "Dummy": {
+      "value": 23.053333333333335
+    },
+    "EST_NCV": {
+      "trend": "add",
+      "seasonal": "mul",
+      "smoothing_level": 0.3,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.3
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        0,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "gr-qc": {
+    "Dummy": {
+      "value": 25.606666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "hep-ex": {
+    "Dummy": {
+      "value": 11.946666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "hep-lat": {
+    "Dummy": {
+      "value": 5.4
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "hep-ph": {
+    "Dummy": {
+      "value": 30.56
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "hep-th": {
+    "Dummy": {
+      "value": 29.586666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math-ph": {
+    "Dummy": {
+      "value": 19.68
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.AC": {
+    "Dummy": {
+      "value": 3.1733333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.AG": {
+    "Dummy": {
+      "value": 13.1
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.3,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.3
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.AP": {
+    "Dummy": {
+      "value": 22.313333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.AT": {
+    "Dummy": {
+      "value": 4.06
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.CA": {
+    "Dummy": {
+      "value": 5.653333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.CO": {
+    "Dummy": {
+      "value": 22.986666666666668
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.CT": {
+    "Dummy": {
+      "value": 2.953333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.CV": {
+    "Dummy": {
+      "value": 4.28
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.DG": {
+    "Dummy": {
+      "value": 10.26
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.DS": {
+    "Dummy": {
+      "value": 11.826666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.FA": {
+    "Dummy": {
+      "value": 8.88
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.GM": {
+    "Dummy": {
+      "value": 1.0666666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.GN": {
+    "Dummy": {
+      "value": 1.3133333333333332
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.GR": {
+    "Dummy": {
+      "value": 6.306666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.3,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.3
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.GT": {
+    "Dummy": {
+      "value": 5.413333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.HO": {
+    "Dummy": {
+      "value": 0.9666666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.IT": {
+    "Dummy": {
+      "value": 13.6
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.5,
+      "smoothing_trend": 0.3,
+      "smoothing_seasonal": 0.5
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.KT": {
+    "Dummy": {
+      "value": 1.38
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.LO": {
+    "Dummy": {
+      "value": 4.013333333333334
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.MG": {
+    "Dummy": {
+      "value": 3.433333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.MP": {
+    "Dummy": {
+      "value": 19.68
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.NA": {
+    "Dummy": {
+      "value": 17.673333333333332
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.NT": {
+    "Dummy": {
+      "value": 12.633333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.OA": {
+    "Dummy": {
+      "value": 2.78
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.OC": {
+    "Dummy": {
+      "value": 23.3
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.PR": {
+    "Dummy": {
+      "value": 18.0
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.QA": {
+    "Dummy": {
+      "value": 3.46
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.RA": {
+    "Dummy": {
+      "value": 4.573333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.RT": {
+    "Dummy": {
+      "value": 7.306666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.SG": {
+    "Dummy": {
+      "value": 2.1666666666666665
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.SP": {
+    "Dummy": {
+      "value": 2.6
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "math.ST": {
+    "Dummy": {
+      "value": 8.026666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "nlin.AO": {
+    "Dummy": {
+      "value": 1.4866666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "nlin.CD": {
+    "Dummy": {
+      "value": 2.7866666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "nlin.CG": {
+    "Dummy": {
+      "value": 0.22666666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "nlin.PS": {
+    "Dummy": {
+      "value": 1.9933333333333334
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "nlin.SI": {
+    "Dummy": {
+      "value": 2.013333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "nucl-ex": {
+    "Dummy": {
+      "value": 4.826666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "nucl-th": {
+    "Dummy": {
+      "value": 10.06
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.acc-ph": {
+    "Dummy": {
+      "value": 1.9266666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.ao-ph": {
+    "Dummy": {
+      "value": 3.3666666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.app-ph": {
+    "Dummy": {
+      "value": 11.113333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.atm-clus": {
+    "Dummy": {
+      "value": 0.52
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.atom-ph": {
+    "Dummy": {
+      "value": 5.246666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.bio-ph": {
+    "Dummy": {
+      "value": 4.58
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.chem-ph": {
+    "Dummy": {
+      "value": 9.073333333333334
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.class-ph": {
+    "Dummy": {
+      "value": 1.7866666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.comp-ph": {
+    "Dummy": {
+      "value": 10.32
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "mul",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.data-an": {
+    "Dummy": {
+      "value": 2.7266666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.ed-ph": {
+    "Dummy": {
+      "value": 1.3666666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.flu-dyn": {
+    "Dummy": {
+      "value": 10.986666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.gen-ph": {
+    "Dummy": {
+      "value": 0.9666666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.geo-ph": {
+    "Dummy": {
+      "value": 3.033333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.hist-ph": {
+    "Dummy": {
+      "value": 1.2866666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.ins-det": {
+    "Dummy": {
+      "value": 6.153333333333333
+    },
+    "EST_NCV": {
+      "trend": "add",
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.med-ph": {
+    "Dummy": {
+      "value": 3.96
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.optics": {
+    "Dummy": {
+      "value": 18.333333333333332
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "mul"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.plasm-ph": {
+    "Dummy": {
+      "value": 6.166666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.pop-ph": {
+    "Dummy": {
+      "value": 0.5466666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.soc-ph": {
+    "Dummy": {
+      "value": 5.713333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "physics.space-ph": {
+    "Dummy": {
+      "value": 2.54
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-bio.BM": {
+    "Dummy": {
+      "value": 2.44
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-bio.CB": {
+    "Dummy": {
+      "value": 0.54
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-bio.GN": {
+    "Dummy": {
+      "value": 1.3733333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-bio.MN": {
+    "Dummy": {
+      "value": 0.7266666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-bio.NC": {
+    "Dummy": {
+      "value": 4.5
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-bio.OT": {
+    "Dummy": {
+      "value": 0.47333333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-bio.PE": {
+    "Dummy": {
+      "value": 3.1866666666666665
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-bio.QM": {
+    "Dummy": {
+      "value": 4.8133333333333335
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-bio.SC": {
+    "Dummy": {
+      "value": 0.18
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-bio.TO": {
+    "Dummy": {
+      "value": 0.7466666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-fin.CP": {
+    "Dummy": {
+      "value": 1.5266666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-fin.EC": {
+    "Dummy": {
+      "value": 3.9133333333333336
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-fin.GN": {
+    "Dummy": {
+      "value": 0.4866666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-fin.MF": {
+    "Dummy": {
+      "value": 1.16
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-fin.PM": {
+    "Dummy": {
+      "value": 0.8866666666666667
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-fin.PR": {
+    "Dummy": {
+      "value": 0.36
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-fin.RM": {
+    "Dummy": {
+      "value": 1.0266666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-fin.ST": {
+    "Dummy": {
+      "value": 1.2733333333333334
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "q-fin.TR": {
+    "Dummy": {
+      "value": 0.86
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "quant-ph": {
+    "Dummy": {
+      "value": 53.12
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "stat.AP": {
+    "Dummy": {
+      "value": 8.64
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.3,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.3
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "stat.CO": {
+    "Dummy": {
+      "value": 3.8333333333333335
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "stat.ME": {
+    "Dummy": {
+      "value": 14.633333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "stat.ML": {
+    "Dummy": {
+      "value": 23.673333333333332
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.3,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.3
+    },
+    "EST_CV": {
+      "trend": "add",
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "stat.OT": {
+    "Dummy": {
+      "value": 0.5466666666666666
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  },
+  "stat.TH": {
+    "Dummy": {
+      "value": 8.033333333333333
+    },
+    "EST_NCV": {
+      "trend": null,
+      "seasonal": "add",
+      "smoothing_level": 0.1,
+      "smoothing_trend": 0.1,
+      "smoothing_seasonal": 0.1
+    },
+    "EST_CV": {
+      "trend": null,
+      "seasonal": "add"
+    },
+    "SARIMA_CV": {
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    "Prophet": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    },
+    "Prophet_Full": {
+      "seasonality_mode": "additive",
+      "weekly_seasonality": false,
+      "yearly_seasonality": false,
+      "changepoint_prior_scale": 0.05
+    }
+  }
+}
