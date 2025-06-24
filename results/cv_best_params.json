@@ -109,7 +109,7 @@
   },
   "astro-ph.HE": {
     "Dummy": {
-      "value": 20.406666666666666
+      "value": 20.42
     },
     "EST_NCV": {
       "trend": null,
@@ -217,7 +217,7 @@
   },
   "cond-mat.dis-nn": {
     "Dummy": {
-      "value": 5.506666666666667
+      "value": 5.513333333333334
     },
     "EST_NCV": {
       "trend": null,
@@ -264,7 +264,7 @@
     },
     "EST_CV": {
       "trend": null,
-      "seasonal": "mul"
+      "seasonal": "add"
     },
     "SARIMA_CV": {
       "seasonal_order": [
@@ -289,7 +289,7 @@
   },
   "cond-mat.mtrl-sci": {
     "Dummy": {
-      "value": 30.26
+      "value": 30.266666666666666
     },
     "EST_NCV": {
       "trend": null,
@@ -325,7 +325,7 @@
   },
   "cond-mat.other": {
     "Dummy": {
-      "value": 2.34
+      "value": 2.3466666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -433,7 +433,7 @@
   },
   "cond-mat.stat-mech": {
     "Dummy": {
-      "value": 14.546666666666667
+      "value": 14.56
     },
     "EST_NCV": {
       "trend": null,
@@ -469,7 +469,7 @@
   },
   "cond-mat.str-el": {
     "Dummy": {
-      "value": 16.393333333333334
+      "value": 16.413333333333334
     },
     "EST_NCV": {
       "trend": null,
@@ -541,7 +541,7 @@
   },
   "cs.AI": {
     "Dummy": {
-      "value": 134.08
+      "value": 134.18666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -613,7 +613,7 @@
   },
   "cs.CC": {
     "Dummy": {
-      "value": 3.7666666666666666
+      "value": 3.7866666666666666
     },
     "EST_NCV": {
       "trend": null,
@@ -649,7 +649,7 @@
   },
   "cs.CE": {
     "Dummy": {
-      "value": 6.1066666666666665
+      "value": 6.1
     },
     "EST_NCV": {
       "trend": null,
@@ -721,7 +721,7 @@
   },
   "cs.CL": {
     "Dummy": {
-      "value": 77.4
+      "value": 77.41333333333333
     },
     "EST_NCV": {
       "trend": null,
@@ -757,7 +757,7 @@
   },
   "cs.CR": {
     "Dummy": {
-      "value": 25.52
+      "value": 25.54
     },
     "EST_NCV": {
       "trend": null,
@@ -793,7 +793,7 @@
   },
   "cs.CV": {
     "Dummy": {
-      "value": 115.73333333333333
+      "value": 115.74
     },
     "EST_NCV": {
       "trend": null,
@@ -829,7 +829,7 @@
   },
   "cs.CY": {
     "Dummy": {
-      "value": 16.186666666666667
+      "value": 16.206666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -865,7 +865,7 @@
   },
   "cs.DB": {
     "Dummy": {
-      "value": 4.786666666666667
+      "value": 4.8
     },
     "EST_NCV": {
       "trend": "add",
@@ -937,7 +937,7 @@
   },
   "cs.DL": {
     "Dummy": {
-      "value": 2.16
+      "value": 2.1666666666666665
     },
     "EST_NCV": {
       "trend": null,
@@ -1009,7 +1009,7 @@
   },
   "cs.DS": {
     "Dummy": {
-      "value": 8.426666666666666
+      "value": 8.433333333333334
     },
     "EST_NCV": {
       "trend": "add",
@@ -1045,7 +1045,7 @@
   },
   "cs.ET": {
     "Dummy": {
-      "value": 5.206666666666667
+      "value": 5.213333333333333
     },
     "EST_NCV": {
       "trend": null,
@@ -1081,7 +1081,7 @@
   },
   "cs.FL": {
     "Dummy": {
-      "value": 1.7866666666666666
+      "value": 1.8
     },
     "EST_NCV": {
       "trend": null,
@@ -1132,7 +1132,7 @@
     },
     "SARIMA_CV": {
       "seasonal_order": [
-        1,
+        0,
         1,
         0,
         5
@@ -1153,7 +1153,7 @@
   },
   "cs.GR": {
     "Dummy": {
-      "value": 5.493333333333333
+      "value": 5.5
     },
     "EST_NCV": {
       "trend": null,
@@ -1189,7 +1189,7 @@
   },
   "cs.GT": {
     "Dummy": {
-      "value": 5.966666666666667
+      "value": 5.973333333333334
     },
     "EST_NCV": {
       "trend": null,
@@ -1225,7 +1225,7 @@
   },
   "cs.HC": {
     "Dummy": {
-      "value": 21.44
+      "value": 21.5
     },
     "EST_NCV": {
       "trend": null,
@@ -1261,7 +1261,7 @@
   },
   "cs.IR": {
     "Dummy": {
-      "value": 14.206666666666667
+      "value": 14.226666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -1297,7 +1297,7 @@
   },
   "cs.IT": {
     "Dummy": {
-      "value": 13.6
+      "value": 13.62
     },
     "EST_NCV": {
       "trend": null,
@@ -1333,7 +1333,7 @@
   },
   "cs.LG": {
     "Dummy": {
-      "value": 156.89333333333335
+      "value": 156.98
     },
     "EST_NCV": {
       "trend": null,
@@ -1369,7 +1369,7 @@
   },
   "cs.LO": {
     "Dummy": {
-      "value": 5.02
+      "value": 5.033333333333333
     },
     "EST_NCV": {
       "trend": null,
@@ -1441,7 +1441,7 @@
   },
   "cs.MM": {
     "Dummy": {
-      "value": 5.6
+      "value": 5.62
     },
     "EST_NCV": {
       "trend": null,
@@ -1477,7 +1477,7 @@
   },
   "cs.MS": {
     "Dummy": {
-      "value": 0.64
+      "value": 0.6466666666666666
     },
     "EST_NCV": {
       "trend": null,
@@ -1513,7 +1513,7 @@
   },
   "cs.NA": {
     "Dummy": {
-      "value": 17.673333333333332
+      "value": 17.686666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -1549,7 +1549,7 @@
   },
   "cs.NE": {
     "Dummy": {
-      "value": 6.34
+      "value": 6.3533333333333335
     },
     "EST_NCV": {
       "trend": null,
@@ -1621,7 +1621,7 @@
   },
   "cs.OH": {
     "Dummy": {
-      "value": 0.16666666666666666
+      "value": 0.18666666666666668
     },
     "EST_NCV": {
       "trend": null,
@@ -1636,7 +1636,7 @@
     },
     "SARIMA_CV": {
       "seasonal_order": [
-        1,
+        0,
         1,
         1,
         5
@@ -1693,7 +1693,7 @@
   },
   "cs.PF": {
     "Dummy": {
-      "value": 2.026666666666667
+      "value": 2.033333333333333
     },
     "EST_NCV": {
       "trend": null,
@@ -1765,7 +1765,7 @@
   },
   "cs.RO": {
     "Dummy": {
-      "value": 33.406666666666666
+      "value": 33.42
     },
     "EST_NCV": {
       "trend": "add",
@@ -1801,7 +1801,7 @@
   },
   "cs.SC": {
     "Dummy": {
-      "value": 0.8733333333333333
+      "value": 0.8666666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -1837,7 +1837,7 @@
   },
   "cs.SD": {
     "Dummy": {
-      "value": 12.76
+      "value": 12.78
     },
     "EST_NCV": {
       "trend": null,
@@ -1873,7 +1873,7 @@
   },
   "cs.SE": {
     "Dummy": {
-      "value": 14.666666666666666
+      "value": 14.693333333333333
     },
     "EST_NCV": {
       "trend": null,
@@ -1945,7 +1945,7 @@
   },
   "cs.SY": {
     "Dummy": {
-      "value": 23.08
+      "value": 23.086666666666666
     },
     "EST_NCV": {
       "trend": "add",
@@ -2089,7 +2089,7 @@
   },
   "eess.AS": {
     "Dummy": {
-      "value": 14.446666666666667
+      "value": 14.466666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -2125,7 +2125,7 @@
   },
   "eess.IV": {
     "Dummy": {
-      "value": 17.573333333333334
+      "value": 17.586666666666666
     },
     "EST_NCV": {
       "trend": null,
@@ -2135,7 +2135,7 @@
       "smoothing_seasonal": 0.1
     },
     "EST_CV": {
-      "trend": "add",
+      "trend": null,
       "seasonal": "mul"
     },
     "SARIMA_CV": {
@@ -2161,7 +2161,7 @@
   },
   "eess.SP": {
     "Dummy": {
-      "value": 21.986666666666668
+      "value": 22.0
     },
     "EST_NCV": {
       "trend": null,
@@ -2197,7 +2197,7 @@
   },
   "eess.SY": {
     "Dummy": {
-      "value": 23.053333333333335
+      "value": 23.06
     },
     "EST_NCV": {
       "trend": "add",
@@ -2233,7 +2233,7 @@
   },
   "gr-qc": {
     "Dummy": {
-      "value": 25.606666666666666
+      "value": 25.62
     },
     "EST_NCV": {
       "trend": null,
@@ -2269,7 +2269,7 @@
   },
   "hep-ex": {
     "Dummy": {
-      "value": 11.946666666666667
+      "value": 11.953333333333333
     },
     "EST_NCV": {
       "trend": null,
@@ -2341,7 +2341,7 @@
   },
   "hep-ph": {
     "Dummy": {
-      "value": 30.56
+      "value": 30.58
     },
     "EST_NCV": {
       "trend": null,
@@ -2377,7 +2377,7 @@
   },
   "hep-th": {
     "Dummy": {
-      "value": 29.586666666666666
+      "value": 29.62
     },
     "EST_NCV": {
       "trend": null,
@@ -2413,7 +2413,7 @@
   },
   "math-ph": {
     "Dummy": {
-      "value": 19.68
+      "value": 19.706666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -2495,7 +2495,7 @@
       "smoothing_seasonal": 0.3
     },
     "EST_CV": {
-      "trend": "add",
+      "trend": null,
       "seasonal": "add"
     },
     "SARIMA_CV": {
@@ -2629,7 +2629,7 @@
   },
   "math.CO": {
     "Dummy": {
-      "value": 22.986666666666668
+      "value": 23.0
     },
     "EST_NCV": {
       "trend": null,
@@ -2953,7 +2953,7 @@
   },
   "math.GT": {
     "Dummy": {
-      "value": 5.413333333333333
+      "value": 5.42
     },
     "EST_NCV": {
       "trend": null,
@@ -3025,7 +3025,7 @@
   },
   "math.IT": {
     "Dummy": {
-      "value": 13.6
+      "value": 13.62
     },
     "EST_NCV": {
       "trend": null,
@@ -3169,7 +3169,7 @@
   },
   "math.MP": {
     "Dummy": {
-      "value": 19.68
+      "value": 19.706666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -3205,7 +3205,7 @@
   },
   "math.NA": {
     "Dummy": {
-      "value": 17.673333333333332
+      "value": 17.686666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -3349,7 +3349,7 @@
   },
   "math.PR": {
     "Dummy": {
-      "value": 18.0
+      "value": 18.02
     },
     "EST_NCV": {
       "trend": null,
@@ -3457,7 +3457,7 @@
   },
   "math.RT": {
     "Dummy": {
-      "value": 7.306666666666667
+      "value": 7.3133333333333335
     },
     "EST_NCV": {
       "trend": null,
@@ -3637,7 +3637,7 @@
   },
   "nlin.CD": {
     "Dummy": {
-      "value": 2.7866666666666666
+      "value": 2.8066666666666666
     },
     "EST_NCV": {
       "trend": null,
@@ -3673,7 +3673,7 @@
   },
   "nlin.CG": {
     "Dummy": {
-      "value": 0.22666666666666666
+      "value": 0.23333333333333334
     },
     "EST_NCV": {
       "trend": null,
@@ -3688,7 +3688,7 @@
     },
     "SARIMA_CV": {
       "seasonal_order": [
-        0,
+        1,
         1,
         1,
         5
@@ -3745,7 +3745,7 @@
   },
   "nlin.SI": {
     "Dummy": {
-      "value": 2.013333333333333
+      "value": 2.026666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -4141,7 +4141,7 @@
   },
   "physics.comp-ph": {
     "Dummy": {
-      "value": 10.32
+      "value": 10.333333333333334
     },
     "EST_NCV": {
       "trend": null,
@@ -4177,7 +4177,7 @@
   },
   "physics.data-an": {
     "Dummy": {
-      "value": 2.7266666666666666
+      "value": 2.74
     },
     "EST_NCV": {
       "trend": null,
@@ -4213,7 +4213,7 @@
   },
   "physics.ed-ph": {
     "Dummy": {
-      "value": 1.3666666666666667
+      "value": 1.36
     },
     "EST_NCV": {
       "trend": null,
@@ -4249,7 +4249,7 @@
   },
   "physics.flu-dyn": {
     "Dummy": {
-      "value": 10.986666666666666
+      "value": 10.993333333333334
     },
     "EST_NCV": {
       "trend": null,
@@ -4789,7 +4789,7 @@
   },
   "q-bio.NC": {
     "Dummy": {
-      "value": 4.5
+      "value": 4.506666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -5005,7 +5005,7 @@
   },
   "q-fin.CP": {
     "Dummy": {
-      "value": 1.5266666666666666
+      "value": 1.5333333333333334
     },
     "EST_NCV": {
       "trend": null,
@@ -5329,7 +5329,7 @@
   },
   "quant-ph": {
     "Dummy": {
-      "value": 53.12
+      "value": 53.14666666666667
     },
     "EST_NCV": {
       "trend": null,
@@ -5473,7 +5473,7 @@
   },
   "stat.ML": {
     "Dummy": {
-      "value": 23.673333333333332
+      "value": 23.68
     },
     "EST_NCV": {
       "trend": null,
