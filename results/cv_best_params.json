@@ -264,7 +264,7 @@
     },
     "EST_CV": {
       "trend": null,
-      "seasonal": "mul"
+      "seasonal": "add"
     },
     "SARIMA_CV": {
       "seasonal_order": [
@@ -1132,7 +1132,7 @@
     },
     "SARIMA_CV": {
       "seasonal_order": [
-        1,
+        0,
         1,
         0,
         5
@@ -2495,7 +2495,7 @@
       "smoothing_seasonal": 0.3
     },
     "EST_CV": {
-      "trend": "add",
+      "trend": null,
       "seasonal": "add"
     },
     "SARIMA_CV": {
