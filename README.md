@@ -1,100 +1,33 @@
-# arXiv heatmaps
+# arXiv forecasts
 
-The _[arXiv](https://arxiv.org)_ is the major open-access repository of electronic preprints for Physics, Mathematics and Computer Science, among other fields.  Preprints are classified into several categories, and have been posted since the late 80s.
+The [arXiv](https://arxiv.org) is a major open-access repository for preprints in fields like Physics, Mathematics, and Computer Science. Given the high and varying volume of daily submissions, the visibility of a preprint can depend heavily on when it is posted.
 
-The goal of this project is to create a forecasting algorithm of postings on the arXiv per category, both short-term (to optimize visibility) and long-term (to optimize audience size).
+The goal of this project is to develop a short-term forecasting algorithm that predicts the number of preprints to be posted per category in the upcoming week. By identifying days with the lowest expected submission counts, the model would help researchers to strategically select submission dates to maximize visibility and audience reach.
 
+The strategy is based on the assumption that preprint visibility is inversely related to the number of submissions on a given day --- i.e. the fewer competing papers, the higher chance of being noticed. This is supported by the analysis of the arXiv usage data, which shows that usage remains fairly stable throughout the week and does not increase proportionally with the number of submissions.
 
-## Stakeholders and KPIs
-### Short-term predictions (optimizing visibility)
-**Stakeholders**: Researchers trying to optimize their preprint visibility.
+A more detailed description of the project is available in the [executive summary]().
 
-**Idea**: Assuming that the probability a preprint being opened is inversely proportional to the number of papers listed in the same area on the same day, then one would aim to post papers on days when fewer papers are posted.
+## Repository structure
+[`results`](results) contains the complete annotated pipeline, divided into a series of seven notebooks of notebooks:
+- [`1_cleaning.ipynb`](results/1_cleaning.ipynb): data cleaning
+- [`2_pre-processing.ipynb`](results/2_pre-processing.ipynb): data pre-processing (makes dataset of total posts per day)
+- [`3_usage-summary.ipynb`](results/3_usage-summary.ipynb): study daily usage data
+- [`4_baseline-models.ipynb`](results/4_baseline-models.ipynb): compare four baseline models and selects the best performing one
+- [`5_model-training.ipynb`](results/5_model-training.ipynb): trains Holt-Winters, SARIMA, and Facebook Prophet models, optimizing parameters
+- [`6_model-testing.ipynb`](results/6_model-testing.ipynb): tests the best models of the previous steps on the testing sample
+- [`7_results-analysis.ipynb`](results/7_results-analysis.ipynb): summarizes the results of the model testing
 
-**KPIs**: The forecasting algorithm should significantly decrease the expected number of other papers posted on the same day as the stakeholder's paper, compared to average number of paper posted per day.
+[`data`](data) contains all the datasets used in the project:
+- [`arxiv-categories.json`](data/arxiv-categories.json): list of all current categories.
+- [`arxiv-metadata-id-versions-categories.parquet`](data/arxiv-metadata-id-versions-categories.parquet): the arXiv metadata stripped of all columns except for `id` (`string` - the arXiv ID), `versions` (a dictionary containing data about the published versions), and `categories` (`list(string)` - the list of categories the entry is posted in).  No date extraction or cleaning of missing/legacy categories yet.
+- [`arxiv-metadata-id-date-categories.parquet`](data/arxiv-metadata-id-date-categories.parquet): same as the previous, but with `date` (`datetime` - the publishing date of the first version v1) in place of `versions`.
+- [`arxiv-metadata-cleaned.parquet`](data/arxiv-metadata-cleaned.parquet): same as the previous but with cleaned categories.  This is the starting point for pre-processing.
+- [`arxiv-totals.parquet`](data/arxiv-totals.parquet): a date-indexed dataset recording the number of preprints submitted per category on each day. This dataset is the primary input for forecasting models.
+- [`arxiv-snapshots.parquet`](data/arxiv-snapshots.parquet): a date-indexed dataset recording cross-listings for each day (for future usage).
+- [`arxiv-usage.parquet`](data/arxiv-usage.parquet): a date-indexed dataset of daily connections to the arXiv server.
 
-
-### Long-term predictions (optimizing audience size)
-**Stakeholders**: Researchers trying to predict which field is going to become popular and in-demand, to increase their audience.
-
-**Idea**: Given a starting category $C_0$, a starting time $t_0$, and a time interval $\Delta t$, the algorithm should recommend whether to stay in the field $c_0$ or try to move towards an adjacent field $C_1$ (adjacency could be measured by number of cross-listings), for the purpose of maximizing the audience of a paper posted at time $t_0 + \Delta t$.  A proxy for the audience of a category $C$ could be the number of monthly (?) postings in $C$.
-
-**KPIs**: The recommended category should reliably have more monthly postings than the average of monthly postings of all the adjacent fields (possibly weighted by "adjacency", i.e. cross-listings).
-
-
-## Short-term prediction model
-### Goal
-
-For a stakeholder submitting a paper with tags $\mathcal{C}_1,\dots,\mathcal{C}_n$ and wants to submit within the next $h$ days, we will give the suggestion of the best day(s) within this time period to submit to optimize visibility.
-
-### Steps
-
-#### Step 1: Data Preparation
-We will need to fix the following parameters:
-- A fixed cateogry $\mathcal{C}$
-- A forecasting horizon $h=5$ buiseness days
-- Data split $3h$, capped at 03/17/2025 (our data stopping point is 04/10/2025)
-- Data starting point is 01/01/2001 (Monday)
-
-#### Step 2: Baseline Model
-There are several choices of time series models for us to form the baseline model:
-- [Holt-Winters (Triple Exponential Smoothing)](https://www.statsmodels.org/devel/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html)  
-    Use cross-validation or a validation to find the best combination of the hyperparameters `trend`, `damped_trend`, `seasonal`.  
-    - Additive version
-    - Multiplicative version
-
-- Seasonal Autoregressive Integrated Moving Average (SARIMA) or ARIMA
-- Some regression models: [Time-related feature engineering](https://scikit-learn.org/stable/auto_examples/applications/plot_cyclical_feature_engineering.html#time-related-feature-engineering)
-
-
-## Implementation
-
-### Datasets
-The complete arXiv metadata is freely available on [Kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv/data).  The dataset seems to cover the entirety of arXiv's history, and is maintained directly by the arXiv.
-
-### Files description
-#### Data cleaning (`notes/cleaning.ipynb`)
-##### `data/arxiv-metadata-id-versions-categories.parquet`
-The arXiv metadata stripped of all columns except for `id` (`string` - the arXiv ID), `versions` (a dictionary containing data about the published versions), and `categories` (`list(string)` - the list of categories the entry is posted in).  No date extraction or cleaning of missing/legacy categories yet.
-
-##### `data/arxiv-categories.json`
-List of all current categories.
-
-##### `data/arxiv-metadata-id-date-categories.parquet`
-Same as `data/arxiv-metadata-id-versions-categories.parquet`, but with `date` (`datetime` - the publishing date of the first version v1) in place of `versions`.
-
-##### `data/arxiv-metadata-cleaned.parquet`
-As `arxiv-metadata-id-date-categories.parquet` but with cleaned categories.  This is the starting point for pre-processing.
-
-#### Pre-processing (`notes/crunching.ipynb`)
-##### `data/arxiv-totals.parquet`
-The daily totals per category (columns: categories; rows: dates).
-
-#### `data/arxiv-snapshots.parquet` (name should be changed)
-The daily totals per cross-listing (columns: couples of categories; rows: dates).  A paper listed in three categories A, B, C would count as an entry in each of (A,B), (B,C), and (A,C).  The diagonal entries of the form (X,X) count the papers that are listed in category X only and not cross-listed in any other category.
-
-**Note**: this means that the sum of all cross listings (A,-) isn't necessarily equal to the totals for A.
-
-### Cleaning (`notes/cleaning.ipynb`)
-- [x] remove all unnecessary metadata, keeping only `id`, `version`, and `categories`
-- [x] extract the first upload date from `version`, put it into a new column `date`, remove the `version` column
-- [x] `categories` are listed in a single string, separated by white spaces: turn it into a list
-- [x] arXiv categories changed in 2007: find the legacy categories and replace them with the new ones
-
-### Pre-process data (`notes/crunching.ipynb`)
-- [x] list all possible combinations of categories
-- [x] group the listings by date
-- [x] for every `date`, count the cross-listings and the totals
-- [x] save the count into two new dataframes (`arxiv_snapshots` and `arxiv_totals`), indexed by `date`
-
-### Data analysis
-Our idea at the moment is as follows.
-- Short-term behavior is probably not influenced much by interaction between categories, but rather by human preferences.  Hence, a reasonable approach would be trying to predict the short-term behavior of category X solely looking at the time series of X.  If that is the case, the modeling should be fairly straightforward and easily implementable.
-- Long-term behavior is more likely affected by interactions between categories, and the analysis is probably more difficult.  We still have to figure out what to do here.
-
-
-### Visualization
-To be figured out.
+[`notes`](notes) contains drafts.
 
 ## Getting started
 Create the Conda environment
@@ -117,7 +50,7 @@ Install the kernel in Jupyter
 python -m ipykernel install --user --name arxiv-heatmaps
 ```
 
-### Requirements
+### [Requirements](environment.yml)
 - Python 3.13
 - `jupyter`
 - `matplotlib` >= 3.8
@@ -125,13 +58,8 @@ python -m ipykernel install --user --name arxiv-heatmaps
 - `pip` >= 24.0
 - `pyarrow` 
 - `plotly`
+- `statsmodels`
+- `scikit-learn`
+- `prophet`
+- `kagglehub`
 - `engineering-notation==0.10.0`
-
-## Project guidelines
-- Don't work on the `main` branch directly.  Create separate branches and pull requests to `main`.
-- Keep all the data in the `data` folder.
-- Keep all Jupyter notebooks in the `notes` folder.
-- Be descriptive in your notebooks: everyone should be able to understand the code and the ideas by just looking at the notebook.
-- Use reasonable and descriptive names for files.
-- Write descriptive commit messages.  Follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and try to be consistent.
-- Keep the team up-to-date with your activity on the Slack channel.
