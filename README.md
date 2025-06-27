@@ -6,7 +6,7 @@ The goal of this project is to develop a short-term forecasting algorithm that p
 
 The strategy is based on the assumption that preprint visibility is inversely related to the number of submissions on a given day --- i.e. the fewer competing papers, the higher chance of being noticed. This is supported by the analysis of the arXiv usage data, which shows that usage remains fairly stable throughout the week and does not increase proportionally with the number of submissions.
 
-A more detailed description of the project is available in the [executive summary](executive-summary.pdf).
+See the [executive summary](executive-summary.pdf) for a summary of ideas and results.
 
 ## Repository structure
 [`results`](results) contains the complete annotated pipeline, divided into a series of seven notebooks of notebooks:
